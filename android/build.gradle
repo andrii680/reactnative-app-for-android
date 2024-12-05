@@ -1,0 +1,38 @@
+
+
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 34
+        targetSdkVersion = 34
+        ndkVersion = "26.1.10909125"
+        kotlinVersion = "1.9.22"
+        googlePlayServicesVersion = "21.0.1"
+    }
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() {
+            content {
+                includeModule("com.yqritc", "android-scalablevideoview")
+            }
+        }
+    }
+    dependencies {
+
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+        classpath 'com.google.gms:google-services:4.4.2'
+
+    }
+
+    // plugins {
+    //     id 'com.google.gms.google-services' version '4.4.2' apply false
+    // }
+}
+
+ 
+
+apply plugin: "com.facebook.react.rootproject"

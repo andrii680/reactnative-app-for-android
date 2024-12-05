@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "583807431400",
+    "project_id": "postingapp-68624",
+    "storage_bucket": "postingapp-68624.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583807431400:android:f0dbb08e5378ce5e9acf5d",
+        "android_client_info": {
+          "package_name": "com.PostingApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFsidgjseTD9mNNAusyMonsbqcyw2u5NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
